@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  box-shadow: 6px 8px 10px #ffc679;
+  border-radius: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15% auto;
+}
+
+h1 {
+  color: #000;
+  text-align: center;
+  font-family: Cafe24 Ssurround;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 10px 0;
+}
+
+img {
+  margin: 10px;
+}
+
+button {
+  width: 200px;
+  height: 53px;
+  flex-shrink: 0;
+  background-color: #7a3711;
+  color: #ffffff;
+  text-align: center;
+  font-family: Cafe24 Ssurround;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 10px;
+  border: 0;
+  display: block;
+  cursor: pointer;
+  margin: 10px;
+}
